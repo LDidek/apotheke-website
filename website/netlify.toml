@@ -2,7 +2,8 @@
 # Remove .html das URLs e configura redirects
 
 [build]
-  publish = "."
+  publish = "website"
+  command = "echo 'Static site - no build needed'"
 
 # Remove .html das URLs automaticamente
 [[redirects]]
