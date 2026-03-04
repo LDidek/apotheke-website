@@ -1,0 +1,11 @@
+# Redirects Netlify - Remove .html das URLs
+
+# Páginas específicas (sem extensão → com extensão)
+/                           /index.html                200
+/florianopolis              /florianopolis.html        200
+/joinville                  /joinville.html            200
+/blumenau                   /blumenau.html             200
+/balneario-camboriu         /balneario-camboriu.html   200
+
+# Força HTTPS (opcional)
+http://apotheke.com.br/*    https://apotheke.com.br/:splat  301!

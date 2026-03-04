@@ -1,0 +1,63 @@
+# Configuração Netlify - Apotheke
+# Remove .html das URLs e configura redirects
+
+[build]
+  publish = "."
+
+# Remove .html das URLs automaticamente
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/florianopolis"
+  to = "/florianopolis.html"
+  status = 200
+
+[[redirects]]
+  from = "/joinville"
+  to = "/joinville.html"
+  status = 200
+
+[[redirects]]
+  from = "/blumenau"
+  to = "/blumenau.html"
+  status = 200
+
+[[redirects]]
+  from = "/balneario-camboriu"
+  to = "/balneario-camboriu.html"
+  status = 200
+
+# Força HTTPS (opcional mas recomendado)
+[[redirects]]
+  from = "http://apotheke.com.br/*"
+  to = "https://apotheke.com.br/:splat"
+  status = 301
+  force = true
+
+# Headers de segurança e performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache para assets estáticos
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

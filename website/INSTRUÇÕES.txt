@@ -1,0 +1,85 @@
+═══════════════════════════════════════════════════════════════
+    SITE APOTHEKE MANIPULAÇÃO - VERSÃO LOCAL
+═══════════════════════════════════════════════════════════════
+
+✅ SITE COPIADO COM SUCESSO!
+
+📁 Localização: /Users/luizdidek/Documents/Antigravity/Apotheke/website/
+
+═══════════════════════════════════════════════════════════════
+🚀 COMO VISUALIZAR O SITE
+═══════════════════════════════════════════════════════════════
+
+OPÇÃO 1 - Abrir diretamente no navegador:
+   • Clique duas vezes no arquivo "index.html"
+   • Ou arraste o arquivo para o navegador
+
+OPÇÃO 2 - Usar servidor local (RECOMENDADO):
+   • Abra o Terminal nesta pasta
+   • Execute: python3 -m http.server 8000
+   • Abra no navegador: http://localhost:8000
+
+═══════════════════════════════════════════════════════════════
+📦 O QUE FOI COPIADO
+═══════════════════════════════════════════════════════════════
+
+✅ index.html (63 KB)          - Página principal completa
+✅ css/style.css (21 KB)       - Estilos Tailwind compilados
+✅ js/index.js                 - Animações e slider
+✅ js/main.js                  - Toggle do FAQ
+✅ 21 arquivos em assets/      - Imagens, logos, ícones
+
+Total: 1.4 MB
+
+═══════════════════════════════════════════════════════════════
+⚠️  ATENÇÃO - RECURSOS EXTERNOS
+═══════════════════════════════════════════════════════════════
+
+O vídeo de fundo AINDA está sendo carregado da internet:
+   https://apothekemanipulacao.com.br/wp-content/uploads/2020/06/Capa-Site-Apotheke-2.mp4
+
+Para hospedar localmente:
+   1. Baixe o vídeo desse link
+   2. Salve na pasta assets/
+   3. Atualize o caminho no index.html (linha ~177)
+
+═══════════════════════════════════════════════════════════════
+✏️  EDIÇÕES NECESSÁRIAS
+═══════════════════════════════════════════════════════════════
+
+1. EMAIL: Verifique se "contato@apothekemanipulacao.com.br"
+   está correto (linha ~1525 do index.html)
+
+2. SCRIPTS DE TRACKING: Os códigos do Facebook Pixel,
+   Google Analytics e Tag Manager estão no HTML.
+   Remova se não forem necessários.
+
+3. TEXTOS E IMAGENS: Personalize conforme necessário
+
+═══════════════════════════════════════════════════════════════
+📞 INFORMAÇÕES DE CONTATO NO SITE
+═══════════════════════════════════════════════════════════════
+
+WhatsApp: (47) 9 9216-4286
+Email: contato@apothekemanipulacao.com.br
+
+Horários:
+   Segunda a Sexta: 9h às 12h e 13h30 às 19h
+   Sábado: 8h30 às 12h30
+
+═══════════════════════════════════════════════════════════════
+📋 PRÓXIMOS PASSOS SUGERIDOS
+═══════════════════════════════════════════════════════════════
+
+1. ✅ Abrir e testar o site localmente
+2. ⬜ Baixar e adicionar o vídeo localmente (opcional)
+3. ⬜ Verificar/atualizar informações de contato
+4. ⬜ Remover scripts de tracking se não necessários
+5. ⬜ Fazer backup desta pasta
+6. ⬜ Hospedar em servidor web quando estiver pronto
+
+═══════════════════════════════════════════════════════════════
+
+Para mais detalhes técnicos, consulte o arquivo README.md
+
+═══════════════════════════════════════════════════════════════
