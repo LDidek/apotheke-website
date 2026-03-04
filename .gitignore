@@ -36,3 +36,6 @@ logs
 # Build outputs (se houver)
 dist/
 build/
+
+# Local Netlify folder
+.netlify
